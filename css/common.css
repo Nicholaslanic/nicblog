@@ -81,7 +81,6 @@ body {
 .figure ol li{padding:0 10px;line-height:40px;border-bottom:1px dotted #aaa;}
 .wDate {font-size:14px;color:#333;float:right;}
 
-.bg1{background:url(../img/pic/qz-flower1.jpg);}
 .underline{display:block;border-bottom:1px dashed black;height:18px;margin-bottom:40px;}
 .article h3{margin-bottom:0;}
 .article p{padding:0 10px;line-height:30px;}
@@ -110,7 +109,7 @@ body {
 	height:100px;
 	top:-10px;
 	left:-20px;
-	background:url(../img/pic/caticon.jpg);
+	background:url(http://image18-c.poco.cn/mypoco/myphoto/20170406/20/18598587120170406203500068.jpg?750x741_120);
 	background-size:100px 100px;
 	border-radius:50px;
 	-webkit-transition: -webkit-transform .8s ease-out;
