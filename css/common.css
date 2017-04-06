@@ -114,7 +114,6 @@ body {
 	border-radius:50px;
 	-webkit-transition: -webkit-transform .8s ease-out;
 	transition: -webkit-transform .8s ease-out; 
-	
 }
 .pf:hover  .pf_pho{
 	-webkit-transform: rotateZ(360deg);
