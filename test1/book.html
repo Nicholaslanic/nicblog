@@ -184,7 +184,7 @@
 			<div class="bar">吧台</div>
 			
 			<!-- 提交 -->	
-			<form class="bookSubmit" action="book.html" name="form1" method="post">
+			<form class="bookSubmit" action="book.html" name="form1" method="get">
 				<div class="bookInfo">
 					<img src="http://i4.buimg.com/590781/f331a8ea5da3f8ac.jpg"/>
 					<p>区域:一区</p>
@@ -356,16 +356,28 @@ $(function(){
    //console.log($('.bookDate').val());   //获取input内的值
    
    $('#datetimepicker').datetimepicker().on('hide', function(){
-		var str1=new Date().toLocaleDateString();   //2017/4/27
-		var newDStr=parseInt(str1.replace(/\//g,''));
-		var sd=$('.bookDate').val();
-		var newSD=sd.replace(/\-/g,'')
-		if(newSD-newDStr<0 || newSD-newDStr==0){
+		//获取当前时间字符串:2017/4/28,并转换为数组
+		var currArr=new Date().toLocaleDateString().split('/');   
+		var currStr=forDouble(currArr);
+		//获取用户选择的时间
+		var uArr=$('.bookDate').val().split('-');   //["2017", "4", "29"]
+		var uStr=forDouble(uArr);
+		//如果用户选择的时间已过期,提出警告
+		if(uStr-currStr<=0){
 			$('.dateWarn').text('输入的时间已过期,预订时间应从明天开始');
 			$('.bookDate').val('');
 			return;
 		} 
 		$('.dateWarn').text('');
+		
+		function forDouble(arr){
+			//单位数转双位数
+			if(arr[1].length==1)arr[1]='0'+arr[1];
+			if(arr[2].length==1)arr[2]='0'+arr[2];
+			//result=arr.join('');  //转为字符串
+			return arr.join('');    //返回字符串格式
+		}
+		
 	});
    
 });
