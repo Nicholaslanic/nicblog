@@ -44905,7 +44905,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
+  return _c("div", { staticClass: "module_container" }, [
     _c("div", [
       _c("ul", { staticClass: "mui-table-view mui-grid-view mui-grid-9" }, [
         _c(
@@ -45177,7 +45177,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, ".mui-grid-view.mui-grid-9[data-v-f2ec7246] {\n  background: #fff;\n  border: none;\n}\n.mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-f2ec7246] {\n    border: none;\n}\n.mui-grid-view.mui-grid-9 .mui-table-view-cell .mui-media-body[data-v-f2ec7246] {\n      font-size: 13px;\n}\n", ""]);
+exports.push([module.i, ".module_container[data-v-f2ec7246] {\n  padding-bottom: 50px;\n  background: #fff;\n}\n.module_container .mui-grid-view.mui-grid-9[data-v-f2ec7246] {\n    background: #fff;\n    border: none;\n}\n.module_container .mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-f2ec7246] {\n      border: none;\n}\n.module_container .mui-grid-view.mui-grid-9 .mui-table-view-cell .mui-media-body[data-v-f2ec7246] {\n        font-size: 13px;\n}\n", ""]);
 
 // exports
 
@@ -54856,7 +54856,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, "h1[data-v-6bb3f38a], h2[data-v-6bb3f38a], h3[data-v-6bb3f38a], h4[data-v-6bb3f38a], h5[data-v-6bb3f38a], h6[data-v-6bb3f38a], div[data-v-6bb3f38a], p[data-v-6bb3f38a] {\n  margin: 0;\n  padding: 0;\n}\n.clearFix[data-v-6bb3f38a]:after {\n  content: '';\n  clear: both;\n  display: block;\n}\n.clearFix[data-v-6bb3f38a] {\n  zoom: 1;\n}\n.goods_content .goods_item[data-v-6bb3f38a] {\n  float: left;\n  width: 47%;\n  margin: 5px;\n  border-radius: 4px;\n  box-shadow: 0 0 10px #ccc;\n  height: 267px;\n}\n.goods_content .goods_item .gi_img img[data-v-6bb3f38a] {\n    width: 100%;\n}\n.goods_content .goods_item .title[data-v-6bb3f38a] {\n    font-size: 14px;\n    margin-bottom: 4px;\n    height: 28px;\n    overflow: hidden;\n    word-break: break-all;\n}\n.goods_content .goods_item .info .price[data-v-6bb3f38a] {\n    color: red;\n}\n.goods_content .goods_item .info .price .now[data-v-6bb3f38a] {\n      margin-right: 10px;\n      font-size: 15px;\n}\n.goods_content .goods_item .info .price .old[data-v-6bb3f38a] {\n      color: #999;\n}\n.goods_content .goods_item .info .sell[data-v-6bb3f38a] {\n    padding: 0 4px;\n    margin-bottom: 4px;\n}\n.goods_content .goods_item .info .sell .surplus[data-v-6bb3f38a] {\n      float: right;\n}\n.goods_content .goods_list[data-v-6bb3f38a] {\n  margin-bottom: 10px;\n}\n", ""]);
+exports.push([module.i, "h1[data-v-6bb3f38a], h2[data-v-6bb3f38a], h3[data-v-6bb3f38a], h4[data-v-6bb3f38a], h5[data-v-6bb3f38a], h6[data-v-6bb3f38a], div[data-v-6bb3f38a], p[data-v-6bb3f38a] {\n  margin: 0;\n  padding: 0;\n}\n.clearFix[data-v-6bb3f38a]:after {\n  content: '';\n  clear: both;\n  display: block;\n}\n.clearFix[data-v-6bb3f38a] {\n  zoom: 1;\n}\n.goods_content .goods_item[data-v-6bb3f38a] {\n  float: left;\n  width: 47%;\n  margin: 5px;\n  border-radius: 4px;\n  box-shadow: 0 0 10px #ccc;\n  height: 267px;\n  background: #fff;\n}\n.goods_content .goods_item .gi_img img[data-v-6bb3f38a] {\n    width: 100%;\n}\n.goods_content .goods_item .title[data-v-6bb3f38a] {\n    font-size: 14px;\n    margin-bottom: 4px;\n    height: 28px;\n    overflow: hidden;\n    word-break: break-all;\n    padding: 0 2px;\n}\n.goods_content .goods_item .info .price[data-v-6bb3f38a] {\n    color: red;\n}\n.goods_content .goods_item .info .price .now[data-v-6bb3f38a] {\n      margin-right: 10px;\n      font-size: 15px;\n}\n.goods_content .goods_item .info .price .old[data-v-6bb3f38a] {\n      color: #999;\n}\n.goods_content .goods_item .info .sell[data-v-6bb3f38a] {\n    padding: 0 4px;\n    margin-bottom: 4px;\n}\n.goods_content .goods_item .info .sell .surplus[data-v-6bb3f38a] {\n      float: right;\n}\n.goods_content .goods_list[data-v-6bb3f38a] {\n  margin-bottom: 10px;\n}\n", ""]);
 
 // exports
 
